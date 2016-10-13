@@ -1,0 +1,24 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "This is the documentation for the \nDrupal VM Generator\n project.", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/installation/", 
+            "text": "Via Composer (recommended)\n\n\nThe recommended way to install the Drupal VM Generator is to require it globally with \nComposer\n.\n\n\n$ composer global require opdavies/drupal-vm-generator\n\n\n\n\nWhen finished, you can test this by running \nphp ~/.composer/vendor/bin/drupalvm\n.\n\n\nEnsure that the \n$HOME/.composer/vendor/bin\n directory (or the equivalent directory for your OS) is in your \n$PATH\n so that the \ndrupalvm\n executable can be located by your system.\n\n\nVia GitHub\n\n\nFor development purposes, you can also clone the project directly from \nGitHub\n:\n\n\ngit clone https://github.com/opdavies/drupal-vm-generator.git\n\n\n\n\nWhen it is finished, you will also need to run \ncomposer install\n to download all of the dependencies.\n\n\nAlternatively, you can perform both of these actions together using the \ncomposer create-project\n command:\n\n\ncomposer create-project --prefer-source --dev opdavies/drupal-vm-generator:@dev", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/installation/#via-composer-recommended", 
+            "text": "The recommended way to install the Drupal VM Generator is to require it globally with  Composer .  $ composer global require opdavies/drupal-vm-generator  When finished, you can test this by running  php ~/.composer/vendor/bin/drupalvm .  Ensure that the  $HOME/.composer/vendor/bin  directory (or the equivalent directory for your OS) is in your  $PATH  so that the  drupalvm  executable can be located by your system.", 
+            "title": "Via Composer (recommended)"
+        }, 
+        {
+            "location": "/installation/#via-github", 
+            "text": "For development purposes, you can also clone the project directly from  GitHub :  git clone https://github.com/opdavies/drupal-vm-generator.git  When it is finished, you will also need to run  composer install  to download all of the dependencies.  Alternatively, you can perform both of these actions together using the  composer create-project  command:  composer create-project --prefer-source --dev opdavies/drupal-vm-generator:@dev", 
+            "title": "Via GitHub"
+        }
+    ]
+}
